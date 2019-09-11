@@ -1,0 +1,16 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-win32" : "electron-packager ./src --electron-version 6.0.8 --platfrom win32 --icon ./asset/logo.ico --out ./dist --overwrite",
+    "build-linux" : "electron-packager ./src --electron-version 6.0.8 --platfrom linux --icon ./asset/logo.png --out ./dist --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^14.0.6"
+  }
+}
